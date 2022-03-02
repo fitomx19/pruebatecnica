@@ -1,0 +1,37 @@
+$color_blue: cornflowerblue;
+
+
+p {
+    padding: 2rem;
+}
+
+table {
+    padding-top: 2rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    color:white;
+    text-align: center;
+    background-color: $color_blue;
+    text-transform: uppercase;
+}
+
+.contenedor {
+    padding-top: 5rem;
+    width: 70%;
+}
+
+
+
+button{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+}
