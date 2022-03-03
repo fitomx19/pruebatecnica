@@ -93,7 +93,10 @@ function App() {
                   <th>fecha</th>
                   <th>Llueve</th>
                 </tr>
-                {imprimir()}
+                { 
+                // en caso de que falle la aplicacion, eliminar imprimir() , correr npm run start, deterner y volver a pegar imprimir()
+                imprimir()
+                }
             </table>
         </div>
         </center>
